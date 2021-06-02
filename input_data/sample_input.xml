@@ -1,0 +1,28 @@
+<Scene>
+  <Composite Name="Panda" Draw="No">
+    <Circle X="100" Y="100" Radius="100" FillingColor="White" Color="Black" />
+    <Circle X="25" Y="30" Radius="25" FillingColor="Black" Color="Black" />
+    <Circle X="175" Y="30" Radius="25" FillingColor="Black" Color="Black" />
+    <Circle X="50" Y="80" Radius="15" FillingColor="Black" Color="Black" />
+    <Circle X="150" Y="80" Radius="15" FillingColor="Black" Color="Black" />
+    <Triangle Color="Black" FillingColor="Black">
+      <Point X="100" Y="150" />
+      <Point X="50" Y="125" />
+      <Point X="150" Y="125" />
+    </Triangle>
+    <Line Color="Black">
+      <Point X="100" Y="175" />
+      <Point X="100" Y="150" />
+    </Line>
+    <Line Color="Red">
+      <Point X="100" Y="175" />
+      <Point X="50" Y="190" />
+    </Line>
+    <Line Color="Red">
+      <Point X="100" Y="175" />
+      <Point X="150" Y="190" />
+    </Line>
+  </Composite>
+    <Panda/>
+  <Panda Scale="0.5" TranslateX="100" TranslateY="100"  Rotate="45"/>
+</Scene>

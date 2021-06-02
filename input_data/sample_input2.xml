@@ -1,0 +1,8 @@
+<Scene>
+  <Circle X="175" Y="0" Radius="25" FillingColor="Black" Color="Black" />
+ <Triangle Color="Red" FillingColor="Green" Scale="1.2" TranslateX="50" TranslateY="50" Rotate="90">
+    <Point X="100" Y="150" />
+    <Point X="50" Y="125" />
+    <Point X="150" Y="125" />
+  </Triangle>
+</Scene>
